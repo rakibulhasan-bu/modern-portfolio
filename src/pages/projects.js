@@ -64,7 +64,7 @@ const projects = () => {
                     <AnimatedText className={'text-5xl'} text={'A collection of my latest projects!'} />
                     <div className="flex flex-col lg:grid grid-cols-12 gap-12 mt-12">
                         <div className="col-span-12">
-                            <FeaturedProject github={'/'} link={'/'} img={img1} type={'Feature project'} title={'Crypto Screener Application'} summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency.'} />
+                            <FeaturedProject github={'/'} link={'/'} img={img1} type={'Feature project'} title={'Athletic Academy'} summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency.'} />
                         </div>
                         <div className="col-span-6">
                             <Project github={'/'} link={'/'} img={img1} type={'Feature project'} title={'Crypto Screener Application'} summary={'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency.'} />
