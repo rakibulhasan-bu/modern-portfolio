@@ -46,18 +46,24 @@ const Navbar = () => {
                 </nav>
 
                 <nav className='flex justify-center items-center flex-wrap gap-x-6'>
-                    <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
-                        <TwitterIcon />
-                    </motion.a>
-                    <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
-                        <LinkedInIcon />
-                    </motion.a>
-                    <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
-                        <GithubIcon />
-                    </motion.a>
-                    {/* <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
+                    <Link href='https://twitter.com/rakibulhasan_33' target='_blank'>
+                        <motion.div whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
+                            <TwitterIcon />
+                        </motion.div>
+                    </Link>
+                    <Link href='https://www.linkedin.com/in/rakibulhasanbu/' target='_blank' >
+                        <motion.div whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
+                            <LinkedInIcon />
+                        </motion.div>
+                    </Link>
+                    <Link href='https://github.com/rakibulhasan-bu' target='_blank'>
+                        <motion.div whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
+                            <GithubIcon />
+                        </motion.div>
+                    </Link>
+                    {/* <motion.a href='https://twitter.com/rakibulhasan_33' target='_blank' whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
                         <PinterestIcon /> </motion.a>
-                    <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
+                    <motion.a href='https://twitter.com/rakibulhasan_33' target='_blank' whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
                         <DribbbleIcon /> </motion.a> */}
 
                     <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className={`${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"} rounded-full p-1`}>
@@ -77,18 +83,22 @@ const Navbar = () => {
                 </nav>
 
                 <nav className='flex justify-center items-center flex-wrap gap-x-6 text-light dark:text-dark'>
-                    <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
+                    <motion.a href='https://twitter.com/rakibulhasan_33' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
                         <TwitterIcon />
                     </motion.a>
-                    <motion.a href='https://www.linkedin.com/in/rakibulhasanbu/' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
-                        <LinkedInIcon />
-                    </motion.a>
-                    <motion.a href='https://github.com/rakibulhasan-bu' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
-                        <GithubIcon />
-                    </motion.a>
-                    {/* <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
+                    <Link href='https://www.linkedin.com/in/rakibulhasanbu/' target='_blank' >
+                        <motion.div whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
+                            <LinkedInIcon />
+                        </motion.div>
+                    </Link>
+                    <Link href='https://github.com/rakibulhasan-bu' target='_blank'>
+                        <motion.div whileHover={{ y: -4 }} className='w-6' whileTap={{ scale: .9 }}>
+                            <GithubIcon />
+                        </motion.div>
+                    </Link>
+                    {/* <motion.a href='https://twitter.com/rakibulhasan_33' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
                         <PinterestIcon /> </motion.a>
-                    <motion.a href='www.facebook.com' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
+                    <motion.a href='https://twitter.com/rakibulhasan_33' target='_blank' whileHover={{ y: -3 }} className='w-6' whileTap={{ scale: .9 }}>
                         <DribbbleIcon /> </motion.a> */}
 
                     <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className={`${mode === "light" ? "bg-dark dark:bg-light text-light dark:text-dark" : "bg-light dark:bg-dark text-dark dark:text-light"} rounded-full p-1`}>

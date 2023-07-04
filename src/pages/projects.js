@@ -66,7 +66,7 @@ const projects = () => {
             <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center'>
                 <Layout className='pt-8'>
-                    <AnimatedText className={'!text-6xl'} text={'Discover the digital solutions that make an impact!'} />
+                    <AnimatedText className={'!text-3xl lg:!text-6xl'} text={'Discover the digital solutions that make an impact!'} />
                     <div className="flex flex-col lg:grid grid-cols-12 gap-12 mt-12">
                         <div className="col-span-12">
                             <FeaturedProject github={'https://github.com/rakibulhasan-bu/athletic-academy-client'} link={'https://athletic-academy.web.app/'} img={athletic} type={'Feature project'} title={'Athletic Academy'} summary={'This website provides user registration and login for secure access. Instructors have profiles displaying their information, while users can browse and enroll in classes with validated seat availability. Authenticated students can manage their classes and payments, while instructors and administrators have separate dashboards for class and user management. The website is designed responsively for optimal viewing on various devices.'} />
